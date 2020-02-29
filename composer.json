@@ -1,0 +1,10 @@
+{
+    "name": "lightsource/std-response",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "StdResponse\\": ""
+        }
+    }
+}
