@@ -1,10 +1,10 @@
 <?php
 
-namespace StdResponse;
+namespace LightSource\StdResponse;
 
 /**
  * Class STD_RESPONSE
- * @package StdResponse
+ * @package LightSource\StdResponse
  */
 abstract class STD_RESPONSE {
 
