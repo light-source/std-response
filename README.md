@@ -1,9 +1,14 @@
-# std-response
+# Std Response
 
 ## What is it
 Standardization for a function / method response with multiple arguments
 
-## Create response from function / method
+## Instalation
+```
+composer require lightsource/std-response
+```
+
+## Example of usage
 
 ```
 use LightSource\StdResponse\STD_RESPONSE;
