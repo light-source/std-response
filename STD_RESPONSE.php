@@ -12,9 +12,9 @@ abstract class STD_RESPONSE {
 	//////// constants
 
 
-	const KEY_IS_SUCCESS = 'isSuccess';
-	const KEY_ARGS = 'args';
-	const KEY_E_MSGS = 'errorMsgs';
+	const IS_SUCCESS = 'isSuccess';
+	const ARGS = 'args';
+	const E_MSGS = 'errorMsgs';
 
 
 	//////// static methods
@@ -27,7 +27,7 @@ abstract class STD_RESPONSE {
 	 *
 	 * @return array
 	 */
-	final public static function StdResponse( $args = [], $isSuccess = false, $errorMsgs = [] ) {
+	final public static function Create( $args = [], $isSuccess = false, $errorMsgs = [] ) {
 
 		// remove args for not success response
 
@@ -36,9 +36,9 @@ abstract class STD_RESPONSE {
 		}
 
 		return [
-			self::KEY_IS_SUCCESS => $isSuccess,
-			self::KEY_ARGS       => $args,
-			self::KEY_E_MSGS     => $errorMsgs,
+			self::IS_SUCCESS => $isSuccess,
+			self::ARGS       => $args,
+			self::E_MSGS     => $errorMsgs,
 		];
 	}
 

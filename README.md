@@ -20,16 +20,16 @@ function calc( $a, $b ) {
 	$value     = $a + $b;
 	$isSuccess = $value > $a;
 
-	return STD_RESPONSE::StdResponse( [ 'value' => 10, ], $isSuccess );
+	return STD_RESPONSE::Create( [ 'value' => 10, ], $isSuccess );
 }
 
 $result = calc( 10, 20 );
 
-if ( $result[ STD_RESPONSE::KEY_IS_SUCCESS ] ) {
-	$value = $result[ STD_RESPONSE::KEY_ARGS ]['value'];
+if ( $result[ STD_RESPONSE::IS_SUCCESS ] ) {
+	$value = $result[ STD_RESPONSE::ARGS ]['value'];
 	// TODO
 } else {
-	$errorMessages = $result[ STD_RESPONSE::KEY_E_MSGS ];
+	$errorMessages = $result[ STD_RESPONSE::E_MSGS ];
 	// TODO
 }
 ```

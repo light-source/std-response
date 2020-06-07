@@ -1,6 +1,6 @@
 {
   "name": "lightsource/std-response",
-  "description": "Standardize the response when used an array.",
+  "description": "Standardization for a function / method response with multiple arguments",
   "type": "library",
   "license": "MIT",
   "require": {},
