@@ -3,7 +3,7 @@
 ## What is it
 Standardization for a function / method response with multiple arguments
 
-## Instalation
+## Installation
 ```
 composer require lightsource/std-response
 ```
