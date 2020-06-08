@@ -1,4 +1,9 @@
 # Std Response
+[![Latest Stable Version](https://poser.pugx.org/lightsource/std-response/v)](//packagist.org/packages/lightsource/std-response)
+[![Total Downloads](https://poser.pugx.org/lightsource/std-response/downloads)](//packagist.org/packages/lightsource/std-response)
+[![Monthly Downloads](https://poser.pugx.org/lightsource/std-response/d/monthly)](//packagist.org/packages/lightsource/std-response)
+[![Daily Downloads](https://poser.pugx.org/lightsource/std-response/d/daily)](//packagist.org/packages/lightsource/std-response)
+[![License](https://poser.pugx.org/lightsource/std-response/license)](//packagist.org/packages/lightsource/std-response)
 
 ## What is it
 Standardization for a function / method response with multiple arguments
