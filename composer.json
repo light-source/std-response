@@ -2,7 +2,7 @@
   "name": "lightsource/std-response",
   "description": "Standardization for a function / method response with multiple arguments",
   "type": "library",
-  "license": "MIT",
+  "license": "GPL-2.0-only",
   "require": {},
   "autoload": {
     "psr-4": {
